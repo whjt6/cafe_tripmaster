@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loker</title>
+    <link rel="stylesheet" type="text/css" href="loker/style.css"/>
+    <link rel="shortcut icon" href="https://i.ibb.co/Qbw0YMm/LOGO-02-8.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="box00">
+            <div class="logo">
+                <a>
+                    <img src="https://i.ibb.co/wwVxmf2/Logo-Cafe-Trip-01.png" alt="Logo-Cafe-Trip-01" border="0">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="box01">
+        <div class="listcafe">
+            <div id="history" onclick="off_history()">
+                <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                <div class="box01_history">
+                    <div class="box02_history">
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/Pg2dDwV/picture-1490771309.jpg" alt="picture-01">
+                            <h2 class="namacafe">One Eighty Coffee and Music</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/4tdTTG0/Congo-Cafe-new.jpg" alt="picture-02">
+                            <h2 class="namacafe">Congo Gallery & Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/QYy8B10/Jardin-cafe.jpg" alt="picture-03">
+                            <h2 class="namacafe">Jardin Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/2vFXGMy/Sydwic-cafe.jpg" alt="picture-04">
+                            <h2 class="namacafe">Sydwic Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/crxwqBC/Equator-Coffee-and-Gallery.jpg" alt="picture-05">
+                            <h2 class="namacafe">Equator Coffee and Gallery</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/CmRkTgG/Noah-s-Barn-Cafe.jpg" alt="picture-06">
+                            <h2 class="namacafe">Noah's Barn</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/MCzd7FJ/DIDAGO-Cafe.jpg" alt="picture-07">
+                            <h2 class="namacafe">DIDAGO Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/4tdTTG0/Congo-Cafe-new.jpg" alt="picture-02">
+                            <h2 class="namacafe">Congo Gallery & Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/crxwqBC/Equator-Coffee-and-Gallery.jpg" alt="picture-05">
+                            <h2 class="namacafe">Equator Coffee and Gallery</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/QYy8B10/Jardin-cafe.jpg" alt="picture-03">
+                            <h2 class="namacafe">Jardin Cafe</h2>
+                        </div>
+                        <div class="gelembung_pesan">
+                            <img src="https://i.ibb.co/Pg2dDwV/picture-1490771309.jpg" alt="picture-01">
+                            <h2 class="namacafe">One Eighty Coffee and Music</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button id="button_history" onclick="on_history()">
+                <img class="history_hover" src="https://i.ibb.co/Z6JBty1/backup-1.png" alt="history_hover">
+                <img class="logo_history" src="https://i.ibb.co/MhjbpvT/backup.png" alt="history">
+
+            </button>
+            <div class="left">
+                <img src="https://i.ibb.co/Pg2dDwV/picture-1490771309.jpg" alt="picture-01">
+                <button onclick="on_cafe01()">
+                    <h2 class="namacafe">One Eighty Coffee and Music</h2>
+                </button>
+                <p class="job">Barista</p>
+                <p class="alamat">Jl. Ganeca No. 3, Dago Bawah, Bandung</p>
+            </div>
+            <div class="right">
+                <img src="https://i.ibb.co/4tdTTG0/Congo-Cafe-new.jpg" alt="picture-02">
+                <button onclick="on_cafe02()">
+                    <h2 class="namacafe">Congo Gallery & Cafe</h2>
+                </button>
+                <p class="job">Musisi</p>
+                <p class="alamat">Jl. Ranca Kendal Luhur No.8 Dago, Bandung</p>
+            </div>
+            <div class="left">
+                <img src="https://i.ibb.co/QYy8B10/Jardin-cafe.jpg" alt="picture-03">
+                <button onclick="on_cafe03()">
+                    <h2 class="namacafe">Jardin Cafe</h2>
+                </button>
+                <p class="job">Waiter/Waitress</p>
+                <p class="alamat">Jl. Cimanuk No.1A, Citarum, Kec. Bandung Wetan, Kota Bandung</p>
+            </div>
+            <div class="right">
+                <img src="https://i.ibb.co/2vFXGMy/Sydwic-cafe.jpg" alt="picture-04">
+                <button onclick="on_cafe04()">
+                    <h2 class="namacafe">Sydwic Cafe</h2>
+                </button>
+                <p class="job">Barista</p>
+                <p class="alamat">Jl. Cilaki No.63, Citarum, Kec. Bandung Wetan, Kota Bandung</p>
+            </div>
+            <div class="left">
+                <img src="https://i.ibb.co/crxwqBC/Equator-Coffee-and-Gallery.jpg" alt="picture-05">
+                <button onclick="on_cafe05()">
+                    <h2 class="namacafe">Equator Coffee and Gallery</h2>
+                </button>
+                <p class="job">Waiter/Waitress</p>
+                <p class="alamat">Jl. Sulanjana No. 32, Dago Bawah, Bandung</p>
+            </div>
+            <div class="right">
+                <img src="https://i.ibb.co/CmRkTgG/Noah-s-Barn-Cafe.jpg" alt="picture-06">
+                <button onclick="on_cafe06()">
+                    <h2 class="namacafe">Noah's Barn</h2>
+                </button>
+                <p class="job">Musisi</p>
+                <p class="alamat">Jl. Dayang Sumbi No. 2, Dago Bawah, Bandung</p>
+            </div>
+            <div class="left">
+                <img src="https://i.ibb.co/MCzd7FJ/DIDAGO-Cafe.jpg" alt="picture-07">
+                <button onclick="on_cafe07()">
+                    <h2 class="namacafe">DIDAGO Cafe</h2>
+                </button>
+                <p class="job">Barista</p>
+                <p class="alamat">Jl. Ir. H. Juanda No. 21, Dago Bawah, Bandung</p>
+            </div>
+        </div>
+        <div class="detail">
+            <div class="animasi_overlay">
+                <div id="overlay01" onclick="off_cafe01()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/Pg2dDwV/picture-1490771309.jpg" alt="gambar-01">
+                    <h2 class="namacafe">One Eighty Coffee and Music</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                        onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                        onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Barista</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay02" onclick="off_cafe02()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/4tdTTG0/Congo-Cafe-new.jpg" alt="gambar-02">
+                    <h2 class="namacafe">Congo Gallery & Cafe</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Musisi</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay03" onclick="off_cafe03()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/QYy8B10/Jardin-cafe.jpg" alt="picture-03">
+                    <h2 class="namacafe">Jardin Cafe</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Waiter/Waitress</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay04" onclick="off_cafe04()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/2vFXGMy/Sydwic-cafe.jpg" alt="picture-04">
+                    <h2 class="namacafe">Sydwic Cafe</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Barista</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay05" onclick="off_cafe05()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/crxwqBC/Equator-Coffee-and-Gallery.jpg" alt="picture-05">
+                    <h2 class="namacafe">Equator Coffee and Gallery</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Waiter/Waitress</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay06" onclick="off_cafe06()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/CmRkTgG/Noah-s-Barn-Cafe.jpg" alt="picture-06">
+                    <h2 class="namacafe">Noah's Barn</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Musisi</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+                <div id="overlay07" onclick="off_cafe07()">
+                    <img class="close" src="https://i.ibb.co/Db2b8CZ/delete.png" alt="delete">
+                    <img class="img_utama" src="https://i.ibb.co/MCzd7FJ/DIDAGO-Cafe.jpg" alt="picture-07">
+                    <h2 class="namacafe">DIDAGO Cafe</h2>
+                    <a href="lokerpesan.html">
+                        <img class="chat" src="https://i.ibb.co/RSRfqVF/chat02.png" alt="chat"
+                             onmouseover="this.src='https://i.ibb.co/Wx10pY2/chat-03.png';"
+                             onmouseout="this.src='https://i.ibb.co/RSRfqVF/chat02.png';"
+                        >
+                    </a>
+                    <p class="job">Tawaran kerja : Barista</p>
+                    <p class="persyaratan">
+                        <strong>Persyaratan :</strong>
+                        <br>
+                        - Pria dan Wanita <br>
+                        - Usia 18th-24th<br>
+                        - Pendidikan Min SMP Sederajat<br>
+                        - Pengalaman Lebih di utamakan<br>
+                        - Sehat Jasmani dan Rohani<br>
+                        - Fresh Graduate (welcome)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+function on_history() {
+  document.getElementById("history").style.display = "block";
+}
+
+function off_history() {
+  document.getElementById("history").style.display = "none";
+}
+function on_cafe01() {
+  document.getElementById("overlay01").style.display = "block";
+}
+function off_cafe01() {
+  document.getElementById("overlay01").style.display = "none";
+}
+
+function on_cafe02() {
+  document.getElementById("overlay02").style.display = "block";
+}
+function off_cafe02() {
+  document.getElementById("overlay02").style.display = "none";
+}
+function on_cafe03() {
+  document.getElementById("overlay03").style.display = "block";
+}
+function off_cafe03() {
+  document.getElementById("overlay03").style.display = "none";
+}
+function on_cafe04() {
+  document.getElementById("overlay04").style.display = "block";
+}
+function off_cafe04() {
+  document.getElementById("overlay04").style.display = "none";
+}
+function on_cafe05() {
+  document.getElementById("overlay05").style.display = "block";
+}
+function off_cafe05() {
+  document.getElementById("overlay05").style.display = "none";
+}
+function on_cafe06() {
+  document.getElementById("overlay06").style.display = "block";
+}
+function off_cafe06() {
+  document.getElementById("overlay06").style.display = "none";
+}
+function on_cafe07() {
+  document.getElementById("overlay07").style.display = "block";
+}
+function off_cafe07() {
+  document.getElementById("overlay07").style.display = "none";
+}
+</script>
+
+</body>
+<footer>
+    <p class="tanda">&copy;Copyright 2022 by Cafe Trip</p>
+</footer>
+</html>
